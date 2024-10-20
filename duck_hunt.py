@@ -28,3 +28,9 @@ class Duck:
         self.x = random.randint(0, WIDTH - self.image.get_width())
         self.y = random.randint(50, HEIGHT // 2)
         self.is_visible = True
+
+def main():
+    duck = Duck()
+    score = 0
+    misses = 0
+    font = pygame.font.Font(None, 36)
