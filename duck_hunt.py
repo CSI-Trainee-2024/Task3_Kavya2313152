@@ -74,3 +74,6 @@ def main():
     pygame.display.flip()
     pygame.time.wait(3000) 
 
+    pygame.quit()
+    sys.exit()
+
